@@ -2,6 +2,8 @@ import java.util.Scanner;
 
  public class calculator
   {
+
+	  /* This is my calculator code *
     public static void main(String args[])
      {
        float a, b, res;
