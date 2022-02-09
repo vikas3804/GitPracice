@@ -3,7 +3,7 @@ import java.util.Scanner;
  public class calculator
   {
 
-	  /* This is my calculator code *
+	  /* This is my calculator code */
     public static void main(String args[])
      {
        float a, b, res;
@@ -41,12 +41,7 @@ import java.util.Scanner;
 	                 System.out.print("Result = " + res);
 	                 break;
 	 
-	      case '4' : System.out.print("Enter Two Number : ");
-	                 a = scan.nextFloat();
-	                 b = scan.nextFloat();
-	                 res = a / b;
-	                 System.out.print("Result = " + res);
-	                 break;
+	  
 	 
 	      case '5' : System.exit(0);
 	                 break;
@@ -54,7 +49,8 @@ import java.util.Scanner;
 	      default : System.out.print("Wrong Choice!!!");
 	                break;
 	   }
-																	            System.out.print("\n---------------------------------------\n");
-	}while(choice != 5);       
+	
+		System.out.print("\n---------------------------------------\n");
+	}while(choice != 6);       
     }
 }
